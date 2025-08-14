@@ -1,4 +1,47 @@
 ---
 ---
 
-@import 'jekyll-theme-dinky';
+$header-bg: #0077b5;
+$header-bg-grad: #0077b5;
+$link-color: #e68523;
+$section-headings-color: #0077b5; /* headings tint */
+$body-text-color: #1a1a1a;        /* legible body text */
+$muted-text-color: #caccce;       /* subtle borders/UI */
+$code-bg: #caccce;                /* code block bg */
+$blockquote-border: #0077b5;      /* quote accent */
+
+@import "{{ site.theme }}"; /* or: @import 'jekyll-theme-dinky'; */
+
+/* ---- Recolor only (no layout changes) ---- */
+
+/* Sidebar header colors */
+.wrapper > header {
+  background: #0077b5;
+  color: #fff;
+}
+header h1.header,
+header p.header,
+.wrapper > header a.header,
+.wrapper > header .name { color: #fff; }
+
+/* Global links + buttons */
+a { color: #e68523; }
+a:hover, a:focus { text-decoration: underline; }
+
+a.buttons,
+a.buttons.github {
+  background: #0077b5;
+  color: #fff;
+  border-color: transparent;
+}
+a.buttons:hover,
+a.buttons.github:hover { background: #e68523; }
+
+/* Your index.md nav buttons */
+.joyce-nav { background: #0077b5; color: #fff !important; }
+.joyce-nav:hover { background: #e68523; }
+
+/* Subtle surfaces */
+.highlight, pre, code { background: #caccce; }
+blockquote { border-left: 4px solid #0077b5; }
+table th, table td { border-color: #caccce; }
