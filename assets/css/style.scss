@@ -1,68 +1,78 @@
 ---
 ---
 
-/* Vertical icon list in the Dinky header — no red buttons */
-.wrapper > header .profile-links { 
+/* === Vertical icon list in Dinky header — remove red button styling === */
+
+/* Space above the list (optional) */
+.wrapper > header .profile-links {
   margin-top: 0.5rem;
 }
 
+/* Make the list vertical and remove bullets */
 .wrapper > header .profile-links .icon-list {
   list-style: none;
   margin: 0;
   padding: 0;
 
-  display: flex;              /* stack items */
-  flex-direction: column;     /* vertical */
+  display: flex;
+  flex-direction: column;   /* vertical stack */
   gap: 0.4rem;
 }
 
-.wrapper > header .profile-links .icon-list .icon-item { 
+.wrapper > header .profile-links .icon-item {
   margin: 0;
+  padding: 0;
 }
 
-/* Reset Dinky's button look and lay out icon + label in a row */
-.wrapper > header .profile-links .icon-list .icon-link {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-
-  color: #fff;                /* readable on your blue header */
-  text-decoration: none;
-  line-height: 1.2;
-
-  /* remove red button styles */
+/* 🔧 Hard reset: override Dinky's header <a> button styles */
+.wrapper > header .profile-links .icon-list a,
+.wrapper > header .profile-links .icon-list a:link,
+.wrapper > header .profile-links .icon-list a:visited {
   background: transparent !important;
+  background-image: none !important;
   border: 0 !important;
   box-shadow: none !important;
   padding: 0 !important;
+  margin: 0 !important;
+
+  display: flex;            /* icon + label in one row */
+  align-items: center;
+  gap: 0.5rem;
+
+  color: #fff;              /* readable on your blue header */
+  text-decoration: none;
+  line-height: 1.2;
 }
 
-.wrapper > header .profile-links .icon-list .icon-link:hover,
-.wrapper > header .profile-links .icon-list .icon-link:focus {
-  color: #e68523;             /* your accent on hover */
+/* Hover color only (no background) */
+.wrapper > header .profile-links .icon-list a:hover,
+.wrapper > header .profile-links .icon-list a:focus {
+  color: #e68523;           /* your accent */
   background: transparent !important;
 }
 
-/* Icon sizing */
-.wrapper > header .profile-links .icon-list .icon {
+/* Icon sizing (SVG inherits currentColor) */
+.wrapper > header .profile-links .icon {
   display: inline-flex;
-  width: 28px; 
+  width: 28px;
   height: 28px;
 }
-.wrapper > header .profile-links .icon-list .icon svg {
-  width: 28px; 
+.wrapper > header .profile-links .icon svg {
+  width: 28px;
   height: 28px;
-  fill: currentColor;         /* icon color follows link color */
+  fill: currentColor;
 }
 
-/* Label styling */
-.wrapper > header .profile-links .icon-list .label {
+/* Label weight for clarity */
+.wrapper > header .profile-links .label {
   font-weight: 600;
 }
 
 
 
+
 @import "{{ site.theme }}"; /* or: @import 'jekyll-theme-dinky'; */
+
 
 
 
