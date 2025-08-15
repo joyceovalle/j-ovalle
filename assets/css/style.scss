@@ -2,6 +2,30 @@
 ---
 @import 'jekyll-theme-dinky';
 
+/* Circular portrait floated next to the bio */
+.profile-float {
+  float: left;
+  width: 240px;            /* keep width = height for a perfect circle */
+  height: 240px;
+  border-radius: 50%;      /* circle! */
+  object-fit: cover;       /* crop to fill the circle nicely */
+  margin: 0 0 0.9rem 1rem; /* space from text (top/right/bottom/left) */
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+  border: 3px solid #caccce; /* subtle ring that matches your palette */
+  background: #fff;        /* prevents dark edges if the image is transparent */
+}
+
+/* Stack nicely on mobile */
+@media (max-width: 720px) {
+  .profile-float {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;   /* center above the text */
+    width: 55vw;           /* scale down on small screens */
+    height: 55vw;          /* keep it a circle */
+    max-width: 280px;      /* don’t get huge on mid screens */
+    max-height: 280px;
+
 /* Vertical icon list in the Dinky header — remove red button styling & keep vertical */
 .wrapper > header .profile-links { margin-top: 0.9rem; }
 
@@ -73,6 +97,7 @@
     max-height: 280px;
   }
 }
+
 
 
 
