@@ -1,50 +1,61 @@
 ---
 ---
 
-/* Reset Dinky's header button styles for the vertical icon list */
-.wrapper > header .profile-links .icon-list {  /* your <ul> */
+/* Vertical icon list in the Dinky header — no red buttons */
+.wrapper > header .profile-links { 
+  margin-top: 0.5rem;
+}
+
+.wrapper > header .profile-links .icon-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;  /* vertical stack */
-  gap: 0.35rem;
+
+  display: flex;              /* stack items */
+  flex-direction: column;     /* vertical */
+  gap: 0.4rem;
 }
 
-.wrapper > header .profile-links .icon-list li {
+.wrapper > header .profile-links .icon-list .icon-item { 
   margin: 0;
-  padding: 0;
 }
 
-.wrapper > header .profile-links .icon-list li a {  /* your <a class="icon-link"> */
-  background: transparent !important;  /* kill red button background */
-  border: 0 !important;                /* kill button border */
-  box-shadow: none !important;         /* kill any button shadow */
-  padding: 0 !important;               /* remove button padding */
-  display: flex;                       /* icon + label inline */
+/* Reset Dinky's button look and lay out icon + label in a row */
+.wrapper > header .profile-links .icon-list .icon-link {
+  display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #fff;                         /* readable on your blue header */
+
+  color: #fff;                /* readable on your blue header */
   text-decoration: none;
   line-height: 1.2;
+
+  /* remove red button styles */
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
 }
 
-.wrapper > header .profile-links .icon-list li a:hover,
-.wrapper > header .profile-links .icon-list li a:focus {
-  color: #e68523;                      /* your accent on hover */
-  background: transparent !important;  /* ensure no hover background */
+.wrapper > header .profile-links .icon-list .icon-link:hover,
+.wrapper > header .profile-links .icon-list .icon-link:focus {
+  color: #e68523;             /* your accent on hover */
+  background: transparent !important;
 }
 
+/* Icon sizing */
 .wrapper > header .profile-links .icon-list .icon {
   display: inline-flex;
-  width: 28px;
+  width: 28px; 
   height: 28px;
 }
 .wrapper > header .profile-links .icon-list .icon svg {
-  width: 28px;
+  width: 28px; 
   height: 28px;
+  fill: currentColor;         /* icon color follows link color */
 }
 
+/* Label styling */
 .wrapper > header .profile-links .icon-list .label {
   font-weight: 600;
 }
@@ -52,6 +63,7 @@
 
 
 @import "{{ site.theme }}"; /* or: @import 'jekyll-theme-dinky'; */
+
 
 
 
