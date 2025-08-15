@@ -11,7 +11,7 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 1.0rem;
+  gap: 1.5rem;
 }
 .wrapper > header .profile-links .icon-item {
   margin: 0;
@@ -80,4 +80,5 @@
 }
 .wrapper > section a:visited { color: #0645AD; }
 .wrapper > section a:active  { color: #0645AD; }
+
 
