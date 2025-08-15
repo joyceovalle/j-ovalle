@@ -73,3 +73,19 @@
   color: #0645AD !important;     /* turn icon + label blue */
   text-decoration: underline;    /* optional: underline the label */
 }
+
+/* Content (main section) links — classic Wikipedia blue */
+.wrapper > section a:not(.joyce-nav):not(.buttons) {
+  color: #0645AD;
+  text-decoration: underline;
+}
+.wrapper > section a:not(.joyce-nav):not(.buttons):hover,
+.wrapper > section a:not(.joyce-nav):not(.buttons):focus {
+  color: #0B63CE;
+  text-decoration: underline;
+}
+.wrapper > section a:not(.joyce-nav):not(.buttons):visited { color: #0B0080; }
+.wrapper > section a:not(.joyce-nav):not(.buttons):active  { color: #0A58CA; }
+
+footer a { color: #0645AD; }
+footer a:hover, footer a:focus { color: #0B63CE; }
