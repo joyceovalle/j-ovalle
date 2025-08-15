@@ -2,7 +2,7 @@
 ---
 
 /* === Kill Dinky's red button styles for the profile icon list AND keep vertical === */
-.wrapper > header .profile-links { margin-top: 1.0rem; }
+.wrapper > header .profile-links { margin-top: 1.5rem; } \*space above the whole icon block
 
 .wrapper > header .profile-links .icon-list {
   list-style: none;
@@ -10,7 +10,7 @@
   padding: 0;
   display: flex;           /* vertical stack */
   flex-direction: column;
-  gap: 2.0rem;
+  gap: 2.0rem;          /*vertical spacing between each icon row 
 }
 
 /* Make sure the LI itself has no background */
@@ -21,7 +21,7 @@
   background-image: none !important;
   border: 0 !important;
   box-shadow: none !important;
-  gap: 1.0rem;
+  gap: 0.5rem;             /* space between the SVG and the text label
 }
 
 /* Hard reset for any <a> in this list (Dinky styles header UL A) */
@@ -30,7 +30,7 @@
 .wrapper > header .profile-links .icon-list .icon-link:visited,
 .wrapper > header .profile-links .icon-list .icon-link:hover,
 .wrapper > header .profile-links .icon-list .icon-link:focus {
-  display: flex; align-items: center; gap: 0.4rem;
+  display: flex; align-items: center; gap: 0.5rem;
   color: #fff; text-decoration: none; line-height: 1.2;
 
   background: transparent !important;
@@ -56,6 +56,7 @@
 
 
 @import "{{ site.theme }}"; /* or: @import 'jekyll-theme-dinky'; */
+
 
 
 
