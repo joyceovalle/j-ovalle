@@ -4,7 +4,7 @@
 
 /* Circular portrait floated next to the bio */
 .profile-float {
-  float: left;
+  float: right;
   width: 240px;            /* keep width = height for a perfect circle */
   height: 240px;
   border-radius: 50%;      /* circle! */
@@ -97,6 +97,7 @@
     max-height: 280px;
   }
 }
+
 
 
 
