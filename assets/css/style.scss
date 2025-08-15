@@ -1,37 +1,39 @@
 ---
 ---
+@import 'jekyll-theme-dinky';
 
-/* === Kill Dinky's red button styles for the profile icon list AND keep vertical === */
-.wrapper > header .profile-links { margin-top: 4.0rem; } \*space above the whole icon block
+/* Vertical icon list in the Dinky header — remove red button styling & keep vertical */
+.wrapper > header .profile-links { margin-top: 0.9rem; }
 
 .wrapper > header .profile-links .icon-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;           /* vertical stack */
-  flex-direction: column;
-  gap: 2.0rem;          /*vertical spacing between each icon row 
+  display: flex;
+  flex-direction: column; /* vertical */
+  gap: 0.8rem;
 }
 
-/* Make sure the LI itself has no background */
-.wrapper > header .profile-links .icon-list .icon-item {
+.wrapper > header .profile-links .icon-item {
   margin: 0;
   padding: 0;
   background: transparent !important;
   background-image: none !important;
   border: 0 !important;
   box-shadow: none !important;
-  gap: 0.5rem;             /* space between the SVG and the text label
 }
 
-/* Hard reset for any <a> in this list (Dinky styles header UL A) */
-.wrapper > header .profile-links .icon-list .icon-link,
-.wrapper > header .profile-links .icon-list .icon-link:link,
-.wrapper > header .profile-links .icon-list .icon-link:visited,
-.wrapper > header .profile-links .icon-list .icon-link:hover,
-.wrapper > header .profile-links .icon-list .icon-link:focus {
-  display: flex; align-items: center; gap: 0.5rem;
-  color: #fff; text-decoration: none; line-height: 1.2;
+.wrapper > header .profile-links .icon-link,
+.wrapper > header .profile-links .icon-link:link,
+.wrapper > header .profile-links .icon-link:visited,
+.wrapper > header .profile-links .icon-link:hover,
+.wrapper > header .profile-links .icon-link:focus {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1.2;
 
   background: transparent !important;
   background-image: none !important;
@@ -43,17 +45,35 @@
   border-radius: 0 !important;
 }
 
-/* Icon sizing; SVG follows link color */
 .wrapper > header .profile-links .icon { display: inline-flex; width: 28px; height: 28px; }
 .wrapper > header .profile-links .icon svg { width: 28px; height: 28px; fill: currentColor; }
-
-/* Label style + hover accent */
 .wrapper > header .profile-links .label { font-weight: 600; }
-.wrapper > header .profile-links .icon-link:hover,
-.wrapper > header .profile-links .icon-link:focus { color: #e68523; }
 
+/* Circular portrait floated next to the bio */
+.profile-float {
+  float: right;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 0 0.9rem 1rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+  border: 3px solid #caccce;
+  background: #fff;
+}
 
-@import 'jekyll-theme-dinky';
+@media (max-width: 720px) {
+  .profile-float {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+    width: 55vw;
+    height: 55vw;
+    max-width: 280px;
+    max-height: 280px;
+  }
+}
+
 
 
 
