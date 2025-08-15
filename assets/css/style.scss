@@ -11,7 +11,7 @@
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 1.0rem;
 }
 .wrapper > header .profile-links .icon-item {
   margin: 0;
@@ -75,8 +75,9 @@
 }
 .wrapper > section a:hover,
 .wrapper > section a:focus {
-  color: #0B63CE;                /* brighter on hover */
+  color: #0645AD;                /* brighter on hover */
   text-decoration: underline;
 }
-.wrapper > section a:visited { color: #0B0080; }
-.wrapper > section a:active  { color: #0A58CA; }
+.wrapper > section a:visited { color: #0645AD; }
+.wrapper > section a:active  { color: #0645AD; }
+
