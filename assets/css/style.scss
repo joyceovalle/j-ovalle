@@ -1,13 +1,37 @@
 ---
 ---
 
-.icon-links { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
-.icon-links .icon {
-  display: inline-flex; width: 28px; height: 28px;
-  align-items: center; justify-content: center;
-  color: #fff; text-decoration: none;
+/* Vertical icon list with labels in the header (Dinky sidebar) */
+.profile-links { margin-top: 0.5rem; }
+.icon-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;     /* stack vertically */
+  gap: 0.35rem;
 }
-.icon-links .icon:hover { color: #e68523; }
+.icon-item { margin: 0; }
+
+.icon-link {
+  display: flex;              /* icon + text on one line */
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #fff;                /* visible on your blue header */
+  line-height: 1.2;
+  padding: 0.15rem 0;         /* subtle click area */
+  border-radius: 6px;
+}
+.icon-link:hover,
+.icon-link:focus { color: #e68523; } /* your accent on hover */
+
+.icon { display: inline-flex; width: 28px; height: 28px; }
+.icon svg { width: 28px; height: 28px; }
+
+.label { font-weight: 600; }  /* make the label clear */
+
 
 @import "{{ site.theme }}"; /* or: @import 'jekyll-theme-dinky'; */
+
 
