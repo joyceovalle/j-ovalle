@@ -2,7 +2,7 @@
 ---
 
 /* === Kill Dinky's red button styles for the profile icon list AND keep vertical === */
-.wrapper > header .profile-links { margin-top: 1.5rem; } \*space above the whole icon block
+.wrapper > header .profile-links { margin-top: 4.0rem; } \*space above the whole icon block
 
 .wrapper > header .profile-links .icon-list {
   list-style: none;
@@ -56,6 +56,7 @@
 
 
 @import "{{ site.theme }}"; /* or: @import 'jekyll-theme-dinky'; */
+
 
 
 
