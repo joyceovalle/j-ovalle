@@ -21,6 +21,7 @@
   background-image: none !important;
   border: 0 !important;
   box-shadow: none !important;
+  gap: 0.8rem;
 }
 
 /* Hard reset for any <a> in this list (Dinky styles header UL A) */
@@ -29,7 +30,7 @@
 .wrapper > header .profile-links .icon-list .icon-link:visited,
 .wrapper > header .profile-links .icon-list .icon-link:hover,
 .wrapper > header .profile-links .icon-list .icon-link:focus {
-  display: flex; align-items: center; gap: 0.5rem;
+  display: flex; align-items: center; gap: 0.8rem;
   color: #fff; text-decoration: none; line-height: 1.2;
 
   background: transparent !important;
@@ -55,6 +56,7 @@
 
 
 @import "{{ site.theme }}"; /* or: @import 'jekyll-theme-dinky'; */
+
 
 
 
