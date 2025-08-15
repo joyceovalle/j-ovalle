@@ -9,6 +9,11 @@ scholar_url: "https://scholar.google.com/citations?user=yehlXLQAAAAJ&hl=en"
 orcid_url:   "https://orcid.org/YOUR-ORCID"
 linkedin_url: "https://www.linkedin.com/in/ovallejoycelyn"
 
+url: "https://joyceovalle.github.io"
+baseurl: "/joyceovalle"
+
+
 theme: jekyll-theme-dinky
 plugins:
   - jekyll-seo-tag
+
