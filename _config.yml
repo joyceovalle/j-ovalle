@@ -1,6 +1,6 @@
 title: "Joycelyn Ovalle"
 description_top: "PhD | MPP"
-affiliation: "The University of Texas at Austin"
+affiliation: "Post Doctoral Scholar"
 
 show_downloads: false
 google_analytics: ""
@@ -12,3 +12,4 @@ linkedin_url: "https://www.linkedin.com/in/ovallejoycelyn"
 theme: jekyll-theme-dinky
 plugins:
   - jekyll-seo-tag
+
