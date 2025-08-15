@@ -5,9 +5,6 @@ layout: default
 <img class="profile-float" src="{{ '/assets/images/gitprofile.jpg' | relative_url }}" alt="Portrait of Joycelyn Ovalle" width="240" height="240">
 
 # Biography
-
-
-# Biography
 Dr. Ovalle (_pronounced oh-VAH-yeh_) is a postdoctoral fellow with [Planet Texas 2050](https://planettexas2050.utexas.edu/) at The University of Texas at Austin, where she earned her Ph.D. in Public Policy from the LBJ School of Public Affairs. Her research examines civil society institutions, with a focus on their contributions to public policy and environmental quality.
 
 Her dissertation, *Environmental Nonprofits in U.S. Climate Governance: Understanding Resources, Rhetoric, and Heterogeneity*, is a three-study project that employs network analysis, regression modeling, and large-scale text analysis to analyze the funding patterns, messaging strategies, and organizational diversity that shape the sector’s role in climate governance. Her work analyzes how these nonprofits organize decision-making, frame climate priorities, and mobilize resources across diverse geographic contexts in the United States.
@@ -40,5 +37,6 @@ A proud first-generation graduate of Texas public schools, Dr. Ovalle is a long-
 
 
 --
+
 
 
