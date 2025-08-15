@@ -1,6 +1,6 @@
 
 title: "Joycelyn Ovalle"
-description_top: "PhD | MPP"
+description: "PhD | MPP"
 affiliation: "Post Doctoral Scholar"
 
 show_downloads: false
@@ -13,6 +13,7 @@ linkedin_url: "https://www.linkedin.com/in/ovallejoycelyn"
 theme: jekyll-theme-dinky
 plugins:
   - jekyll-seo-tag
+
 
 
 
