@@ -2,7 +2,7 @@
 ---
 
 /* === Kill Dinky's red button styles for the profile icon list AND keep vertical === */
-.wrapper > header .profile-links { margin-top: 0.5rem; }
+.wrapper > header .profile-links { margin-top: 1.0rem; }
 
 .wrapper > header .profile-links .icon-list {
   list-style: none;
@@ -21,7 +21,7 @@
   background-image: none !important;
   border: 0 !important;
   box-shadow: none !important;
-  gap: 0.8rem;
+  gap: 1.0rem;
 }
 
 /* Hard reset for any <a> in this list (Dinky styles header UL A) */
@@ -56,6 +56,7 @@
 
 
 @import "{{ site.theme }}"; /* or: @import 'jekyll-theme-dinky'; */
+
 
 
 
