@@ -1,5 +1,11 @@
 title: Dinky theme
 description: Dinky is a red hot theme for GitHub Pages.
-show_downloads: true
+show_downloads: false
 google_analytics:
+
+scholar_url: "https://scholar.google.com/citations?user=yehlXLQAAAAJ&hl=en"
+orcid_url:   "https://orcid.org/YOUR-ORCID"
+linkedin_url: "https://www.linkedin.com/in/ovallejoycelyn"
+
+
 theme: jekyll-theme-dinky
