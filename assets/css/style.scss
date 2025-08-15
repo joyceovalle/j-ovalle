@@ -67,18 +67,9 @@
     max-height: 280px;
   }
 }
-
-/* Content (main section) links — classic blue, no red */
-.wrapper > section a {
-  color: #0645AD;                /* Wikipedia-style blue */
-  text-decoration: underline;
+/* Header icons: Wikipedia-blue on hover/focus */
+.wrapper > header .profile-links .icon-link:hover,
+.wrapper > header .profile-links .icon-link:focus {
+  color: #0645AD !important;     /* turn icon + label blue */
+  text-decoration: underline;    /* optional: underline the label */
 }
-.wrapper > section a:hover,
-.wrapper > section a:focus {
-  color: #0645AD;                /* brighter on hover */
-  text-decoration: underline;
-}
-.wrapper > section a:visited { color: #0645AD; }
-.wrapper > section a:active  { color: #0645AD; }
-
-
