@@ -1,3 +1,13 @@
 ---
 ---
+
+.icon-links { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+.icon-links .icon {
+  display: inline-flex; width: 28px; height: 28px;
+  align-items: center; justify-content: center;
+  color: #fff; text-decoration: none;
+}
+.icon-links .icon:hover { color: #e68523; }
+
 @import "{{ site.theme }}"; /* or: @import 'jekyll-theme-dinky'; */
+
