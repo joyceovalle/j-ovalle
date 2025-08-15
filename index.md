@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img class="profile-float" src="{{ '/assets/images/gitprofile.jpg' | relative_url }}" alt="Portrait of Joycelyn Ovalle" width="240" height="240">
+<img class="profile-float" src="{{ '/assets/images/gitprofile.jpg' | relative_url }}" alt="profile picture" width="240" height="240">
 
 # Biography
 Dr. Ovalle (_pronounced oh-VAH-yeh_) is a postdoctoral fellow with [Planet Texas 2050](https://planettexas2050.utexas.edu/) at The University of Texas at Austin, where she earned her Ph.D. in Public Policy from the LBJ School of Public Affairs. Her research examines civil society institutions, with a focus on their contributions to public policy and environmental quality.
@@ -37,6 +37,7 @@ A proud first-generation graduate of Texas public schools, Dr. Ovalle is a long-
 
 
 --
+
 
 
 
