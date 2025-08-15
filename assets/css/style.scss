@@ -10,7 +10,7 @@
   padding: 0;
   display: flex;           /* vertical stack */
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 1.1rem;
 }
 
 /* Make sure the LI itself has no background */
@@ -55,6 +55,7 @@
 
 
 @import "{{ site.theme }}"; /* or: @import 'jekyll-theme-dinky'; */
+
 
 
 
