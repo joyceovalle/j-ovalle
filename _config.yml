@@ -1,6 +1,5 @@
 title: Joycelyn Ovalle
-description: PhD | MPP
-description: The University of Texas at Austin
+description: PhD | MPP <br> The University of Texas at Austin
 show_downloads: false
 google_analytics:
 
@@ -10,4 +9,5 @@ linkedin_url: "https://www.linkedin.com/in/ovallejoycelyn"
 
 
 theme: jekyll-theme-dinky
+
 
