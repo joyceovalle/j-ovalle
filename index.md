@@ -17,7 +17,7 @@ A proud first-generation graduate of Texas public schools, Dr. Ovalle is also a 
 <!-- Navigation block -->
 <nav style="margin-top: 1.5em; display: flex; flex-wrap: wrap; gap: 0.5em;">
   <a href="/research/" class="joyce-nav">Research</a>
-  <a href="/publications/" class="joyce-nav">Publications</a>
+  <a href="/publications/" class="joyce-nav">Teaching</a>
   <a href="/cv/" class="joyce-nav">Curriculum Vitae</a>
 </nav>
 
@@ -40,6 +40,7 @@ A proud first-generation graduate of Texas public schools, Dr. Ovalle is also a 
 }
 </style>
 --
+
 
 
 
