@@ -39,7 +39,6 @@ A proud first-generation graduate of Texas public schools, Dr. Ovalle is also a 
   color: #0645AD !important; /* keep same color on hover */
 }
 </style>
---
 
 
 
