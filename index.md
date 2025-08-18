@@ -14,7 +14,6 @@ Dr. Ovalle’s research has been published in *Nonprofit Policy Forum*, *PLOS ON
 A proud first-generation graduate of Texas public schools, Dr. Ovalle is a long-distance running enthusiast and art appreciator.
 
 ---
-
 <!-- Navigation block -->
 <nav style="margin-top: 1.5em; display: flex; flex-wrap: wrap; gap: 0.5em;">
   <a href="/research/" class="joyce-nav">Research</a>
@@ -31,12 +30,17 @@ A proud first-generation graduate of Texas public schools, Dr. Ovalle is a long-
   background: #caccce;
   font-weight: 600;
   border: 1px solid rgba(0,0,0,0.05);
+
+  /* force text color */
+  color: #0645AD !important;
 }
-.joyce-nav:hover { background: #caccce; }
+.joyce-nav:hover {
+  background: #caccce;
+  color: #0645AD !important; /* keep same color on hover */
+}
 </style>
-
-
 --
+
 
 
 
