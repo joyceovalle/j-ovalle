@@ -25,14 +25,14 @@ Findings indicate that approximately 29% of ENPOs reference climate change and s
 ---
 
 # Work in Development
-- Ovalle, J., Bixler, R. P., & Ma, J. *Beyond a Shared Cause: A Topic Analysis of How Environmental Nonprofits Frame Their Climate Priorities.* (In development)  
-- Ovalle, J. *Public Funding for Social Enterprises.* In P. Frumkin and N. Yoon (Eds.), *Encyclopedia of Social Enterprises.* Edward Elgar. (In development)  
+- **Ovalle, J.**, Bixler, R. P., & Ma, J. *Beyond a Shared Cause: A Topic Analysis of How Environmental Nonprofits Frame Their Climate Priorities.* (In development)  
+- **Ovalle, J.**, Searing, E.A.M. *Public Funding for Social Enterprises.* In P. Frumkin and N. Yoon (Eds.), *Encyclopedia of Social Enterprises.* Edward Elgar. (In development)  
 
 ---
 
 # Publications
-- Ovalle, J., Bixler, R. P., & Ma, J. (2024). How Do Nonprofits’ Organizational Characteristics Shape Environmental Philanthropy in Texas? A Network Science Approach. *Nonprofit Policy Forum, 15*(4), 371–387. [https://doi.org/10.1515/npf-2023-0018](https://doi.org/10.1515/npf-2023-0018)  
+- **Ovalle, J.**, Bixler, R. P., & Ma, J. (2024). How Do Nonprofits’ Organizational Characteristics Shape Environmental Philanthropy in Texas? A Network Science Approach. *Nonprofit Policy Forum, 15*(4), 371–387. [https://doi.org/10.1515/npf-2023-0018](https://doi.org/10.1515/npf-2023-0018)  
 
-- Ma, J., Ovalle, J., & Wang, Y. (2023). Institutional factors influencing knowledge production for practice: Evidence from nonprofit studies. *PLOS ONE, 18*(10), e0293360. [https://doi.org/10.1371/journal.pone.0293360](https://doi.org/10.1371/journal.pone.0293360)  
+- Ma, J., **Ovalle, J.**, & Wang, Y. (2023). Institutional factors influencing knowledge production for practice: Evidence from nonprofit studies. *PLOS ONE, 18*(10), e0293360. [https://doi.org/10.1371/journal.pone.0293360](https://doi.org/10.1371/journal.pone.0293360)  
 
-- Evans, H. K., Ovalle, J., & Green, S. (2016). Rockin’ robins: Do congresswomen rule the roost in the Twittersphere? *Journal of the Association for Information Science and Technology, 67*(2), 268–275. [https://doi.org/10.1002/asi.23383](https://doi.org/10.1002/asi.23383)  
+- Evans, H. K., **Ovalle, J.**, & Green, S. (2016). Rockin’ robins: Do congresswomen rule the roost in the Twittersphere? *Journal of the Association for Information Science and Technology, 67*(2), 268–275. [https://doi.org/10.1002/asi.23383](https://doi.org/10.1002/asi.23383)  
