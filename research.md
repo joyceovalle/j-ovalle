@@ -5,22 +5,19 @@ permalink: /research/
 ---
 
 # Research Interests
-Dr. Ovalle’s research emphasizes the diverse roles nonprofits play, from serving as hubs of democratic expression to filling public and private gaps. Her proximity to these organizations through lived experience, professional service, and scholarly inquiry informs a perspective that underscores the sector’s value while also recognizing areas for improvement.  
+Dr. Ovalle’s research agenda advances understanding of _heterogeneity_ in the nonprofit sector, examining how organizations serve as hubs of democratic expression, fill gaps in public and private provision, and navigate the tensions that emerge from balancing these diverse roles. Her perspective is informed by lived experience, professional service, and scholarly inquiry, which together allow her to highlight the sector’s value while also analyzing areas for growth and improvement.
 
-Her work advances four areas of inquiry:  
-- Civil Society in Public Policy and Democracy  
-- Nonprofits in Climate Governance  
-- Funding Structures for Nonprofit Advocacy  
-- Messaging Strategies in a Heterogeneous Nonprofit Sector  
-
+Her work engages four interconnected areas of inquiry:  
+- **Civil Society in Public Policy and Democracy**  
+- **Nonprofits in Climate Governance**  
+- **Funding Structures for Nonprofit Advocacy**  
+- **Messaging Strategies in a Heterogeneous Nonprofit Sector**
 ---
 
 # Working Papers
 **_Job Market Paper_**  
 **Messaging of Environmental Nonprofits: Climate Priorities and Financial Implications**  
-This study examines organizational, financial, and contextual factors associated with how Environmental Nonprofit Organizations (ENPOs) in the United States signal climate change and social justice priorities in their agendas. Using a computational workflow, the analysis identifies a national sample of ENPOs across 25 subsectors (N=10,411) and applies descriptive statistics and regression modeling to assess variation in messaging likelihood and emphasis.  
-
-Findings indicate that approximately 29% of ENPOs reference climate change and social justice, though the strength of emphasis differs across organizations. Lobbying activity and greater financial assets are positively associated with alignment, while stronger financial performance is inversely associated with emphasis. Additional patterns show that younger organizations and those headquartered in Democratic-leaning counties are more likely to reference these objectives. Together, these results highlight how organizational characteristics, financial capacities, and contextual environments shape the communication of climate-related agendas within the nonprofit sector.  
+This study examines organizational, financial, and contextual factors associated with how Environmental Nonprofit Organizations (ENPOs) in the United States signal climate change and social justice priorities in their agendas. Using a computational workflow, the analysis identifies a national sample of ENPOs across 25 subsectors (N=10,411) and applies descriptive statistics and regression modeling to assess variation in messaging likelihood and emphasis. Findings show that approximately 29% of ENPOs reference climate change and social justice, though the strength of emphasis differs across organizations. Lobbying activity and greater financial assets are positively associated with alignment, while stronger financial performance is inversely associated with emphasis. Additional patterns show that younger organizations and those headquartered in Democratic-leaning counties are more likely to reference these objectives. Together, these results highlight how organizational characteristics, financial capacities, and contextual environments shape the communication of climate-related agendas within the nonprofit sector.  
 
 ---
 
