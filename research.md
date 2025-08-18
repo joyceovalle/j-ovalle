@@ -16,8 +16,8 @@ Her work advances four areas of inquiry:
 ---
 
 # Working Papers
-**Job Market Paper**  
-**Messaging in Environmental Nonprofits: Climate Priorities and Financial Implications**  
+**_Job Market Paper_**  
+**Messaging of Environmental Nonprofits: Climate Priorities and Financial Implications**  
 This study examines organizational, financial, and contextual factors associated with how Environmental Nonprofit Organizations (ENPOs) in the United States signal climate change and social justice priorities in their agendas. Using a computational workflow, the analysis identifies a national sample of ENPOs across 25 subsectors (N=10,411) and applies descriptive statistics and regression modeling to assess variation in messaging likelihood and emphasis.  
 
 Findings indicate that approximately 29% of ENPOs reference climate change and social justice, though the strength of emphasis differs across organizations. Lobbying activity and greater financial assets are positively associated with alignment, while stronger financial performance is inversely associated with emphasis. Additional patterns show that younger organizations and those headquartered in Democratic-leaning counties are more likely to reference these objectives. Together, these results highlight how organizational characteristics, financial capacities, and contextual environments shape the communication of climate-related agendas within the nonprofit sector.  
