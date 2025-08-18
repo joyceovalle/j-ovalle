@@ -12,6 +12,7 @@ Her work engages four interconnected areas of inquiry:
 - **Nonprofits in Climate Governance**  
 - **Funding Structures for Nonprofit Advocacy**  
 - **Messaging Strategies in a Heterogeneous Nonprofit Sector**
+  
 ---
 
 # Working Papers
