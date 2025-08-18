@@ -6,7 +6,7 @@ permalink: /teaching/
 
 # Teaching
 
-Dr. Ovalle is prepared to teach introductory and advanced seminars in public policy and administration, nonprofit/NGO management, mixed-methods research, and environmental policy dynamics. At the heart of Dr. Ovalle’s teaching philosophy is a simple premise: each student brings valuable experience and perspective that strengthens everyone’s learning. Therefore, her teaching is not only about delivering content; it is about building curiosity, reflection, and purpose. She designs courses that invite thoughtful questions and connect class topics to real issues in public life. She measures success by whether students leave with new knowledge **and** greater confidence to analyze problems, work collaboratively, and engage constructively with public issues beyond the university.
+Dr. Ovalle is prepared to teach introductory and advanced seminars in public policy and administration, nonprofit/NGO management, mixed-methods research, and environmental policy dynamics. At the heart of Dr. Ovalle’s teaching philosophy is a simple premise: each student brings valuable experience and perspective that strengthens everyone’s learning. Therefore, her teaching is not only about delivering content; it is about building curiosity, reflection, and purpose. She designs courses that invite thoughtful questions and connect class topics to real issues in public life.
 
 ## Classroom Experience
 
