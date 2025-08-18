@@ -16,9 +16,9 @@ A proud first-generation graduate of Texas public schools, Dr. Ovalle is also a 
 ---
 <!-- Navigation block -->
 <nav style="margin-top: 1.5em; display: flex; flex-wrap: wrap; gap: 0.5em;">
-  <a href="/research/" class="joyce-nav">Research</a>
-  <a href="/publications/" class="joyce-nav">Teaching</a>
-  <a href="/cv/" class="joyce-nav">Curriculum Vitae</a>
+  <a href="{{ '/research/' | relative_url }}" class="joyce-nav">Research</a>
+  <a href="{{ '/teaching/' | relative_url }}" class="joyce-nav">Teaching</a>
+  <a href="{{ '/cv/' | relative_url }}" class="joyce-nav">Curriculum Vitae</a>
 </nav>
 
 <style>
@@ -39,6 +39,7 @@ A proud first-generation graduate of Texas public schools, Dr. Ovalle is also a 
   color: #0645AD !important; /* keep same color on hover */
 }
 </style>
+
 
 
 
