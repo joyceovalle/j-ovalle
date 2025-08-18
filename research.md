@@ -35,4 +35,32 @@ Findings indicate that approximately 29% of ENPOs reference climate change and s
 
 - Ma, J., **Ovalle, J.**, & Wang, Y. (2023). Institutional factors influencing knowledge production for practice: Evidence from nonprofit studies. *PLOS ONE, 18*(10), e0293360. [https://doi.org/10.1371/journal.pone.0293360](https://doi.org/10.1371/journal.pone.0293360)  
 
-- Evans, H. K., **Ovalle, J.**, & Green, S. (2016). Rockin’ robins: Do congresswomen rule the roost in the Twittersphere? *Journal of the Association for Information Science and Technology, 67*(2), 268–275. [https://doi.org/10.1002/asi.23383](https://doi.org/10.1002/asi.23383)  
+- Evans, H. K., **Ovalle, J.**, & Green, S. (2016). Rockin’ robins: Do congresswomen rule the roost in the Twittersphere? *Journal of the Association for Information Science and Technology, 67*(2), 268–275. [https://doi.org/10.1002/asi.23383](https://doi.org/10.1002/asi.23383)
+
+---
+<!-- Navigation block -->
+<nav style="margin-top: 1.5em; display: flex; flex-wrap: wrap; gap: 0.5em;">
+  <a href="{{ '/index/' | relative_url }}" class="joyce-nav">Home</a>
+  <a href="{{ '/teaching/' | relative_url }}" class="joyce-nav">Teaching</a>
+  <a href="{{ '/cv/' | relative_url }}" class="joyce-nav">Curriculum Vitae</a>
+</nav>
+
+<style>
+.joyce-nav {
+  display: inline-block;
+  padding: 0.55em 1.1em;
+  border-radius: 8px;
+  text-decoration: none;
+  background: #caccce;
+  font-weight: 600;
+  border: 1px solid rgba(0,0,0,0.05);
+
+  /* force text color */
+  color: #0645AD !important;
+}
+.joyce-nav:hover {
+  background: #caccce;
+  color: #0645AD !important; /* keep same color on hover */
+}
+</style>
+
