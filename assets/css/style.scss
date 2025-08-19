@@ -128,7 +128,7 @@ footer a:hover, footer a:focus { color: #0B63CE; }
 
 /* Base nav link style (neutral/black) */
 .main-navigation a {
-  color: #444;
+  color: #111;
   text-decoration: none;
   font-weight: 600;
   padding: .25rem 0;
@@ -138,7 +138,7 @@ footer a:hover, footer a:focus { color: #0B63CE; }
 .main-navigation a:hover,
 .main-navigation a:focus,
 .main-navigation a[aria-current="page"] {
-  color: #444;
+  color: #111;
 }
 
 /* Strip any button-y styles the theme might add */
@@ -174,7 +174,7 @@ footer a:hover, footer a:focus { color: #0B63CE; }
   border: 1px solid rgba(0,0,0,.12);
   padding: .35rem .6rem;
   border-radius: .5rem;
-  color: #444;            /* neutral to match nav */
+  color: #111;            /* neutral to match nav */
   font-weight: 600;
 }
 .menu-toggle .menu-icon {
@@ -217,12 +217,13 @@ footer a:hover, footer a:focus { color: #0B63CE; }
 .main-navigation a:hover,
 .main-navigation a:focus,
 .main-navigation a:active {
-  color: #444 !important;           /* pick #444 if you prefer */
+  color: #111 !important;           /* pick #111 if you prefer */
   text-decoration: none !important;  /* stop the underline */
 }
 
 /* If your menu toggle inherits link styling, neutralize it too */
 .menu-toggle {
-  color: #444 !important;
+  color: #111 !important;
   text-decoration: none !important;
 }
+
