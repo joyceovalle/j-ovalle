@@ -111,7 +111,7 @@ footer a:hover, footer a:focus { color: #0B63CE; }
 
 .main-navigation a {
   text-decoration: none;
-  color: #444;           /* link blue */
+  color: #444;          
   font-weight: 600;
   padding: .25rem 0;
   position: relative;
@@ -132,14 +132,6 @@ footer a:hover, footer a:focus { color: #0B63CE; }
 }
 .main-navigation a:hover::after,
 .main-navigation a:focus::after {
-  width: 100%;
-}
-
-/* Active page: persistent underline + slightly darker text */
-.main-navigation a[aria-current="page"] {
-  color: #0B63CE;
-}
-.main-navigation a[aria-current="page"]::after {
   width: 100%;
 }
 
@@ -182,6 +174,7 @@ footer a:hover, footer a:focus { color: #0B63CE; }
     display: flex;
   }
 }
+
 
 
 
