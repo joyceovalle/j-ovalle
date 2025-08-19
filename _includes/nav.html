@@ -1,21 +1,11 @@
-<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary">
+<nav class="main-navigation" role="navigation" aria-label="Primary">
   <button class="menu-toggle" aria-expanded="false" aria-controls="menu-primary">
-    <span class="menu-icon" aria-hidden="true"></span>
-    Menu
+    <span class="menu-icon" aria-hidden="true"></span> Menu
   </button>
-
   <ul id="menu-primary" class="menu">
-    <li class="menu-item">
-      <a href="{{ '/'          | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
-    </li>
-    <li class="menu-item">
-      <a href="{{ '/research/' | relative_url }}" {% if page.url == '/research/' %}aria-current="page"{% endif %}>Research</a>
-    </li>
-    <li class="menu-item">
-      <a href="{{ '/teaching/' | relative_url }}" {% if page.url == '/teaching/' %}aria-current="page"{% endif %}>Teaching</a>
-    </li>
-    <li class="menu-item">
-      <a href="{{ '/cv/'       | relative_url }}" {% if page.url == '/cv/' %}aria-current="page"{% endif %}>CV</a>
-    </li>
+    <li class="menu-item"><a href="{{ '/'          | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a></li>
+    <li class="menu-item"><a href="{{ '/research/' | relative_url }}" {% if page.url == '/research/' %}aria-current="page"{% endif %}>Research</a></li>
+    <li class="menu-item"><a href="{{ '/teaching/' | relative_url }}" {% if page.url == '/teaching/' %}aria-current="page"{% endif %}>Teaching</a></li>
+    <li class="menu-item"><a href="{{ '/cv/'       | relative_url }}" {% if page.url == '/cv/' %}aria-current="page"{% endif %}>CV</a></li>
   </ul>
 </nav>
