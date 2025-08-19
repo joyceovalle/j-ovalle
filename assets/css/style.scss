@@ -146,12 +146,12 @@ footer a:hover, footer a:focus { color: #0B63CE; }
 /* Hover/focus: color shift ONLY (no underline bar) */
 .main-navigation a:hover,
 .main-navigation a:focus {
-  color: #0B63CE;        /* hover color */
+  color: #444;        /* hover color */
 }
 
 /* Active/current page: distinct color, still no underline */
 .main-navigation a[aria-current="page"] {
-  color: #0B63CE;        /* same as hover for consistency */
+  color: #444;        /* same as hover for consistency */
 }
 
 /* Accessible keyboard focus ring */
@@ -216,6 +216,7 @@ footer a:hover, footer a:focus { color: #0B63CE; }
     display: flex;
   }
 }
+
 
 
 
