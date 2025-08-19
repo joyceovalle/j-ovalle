@@ -114,7 +114,7 @@ footer a:hover, footer a:focus { color: #0B63CE; }
   border-top: 1px solid rgba(0,0,0,.08);
   border-bottom: 1px solid rgba(0,0,0,.08);
   padding: .25rem 0;
-  font-family: "Arvo", Georgia, serif; /* ensure Arvo in nav */
+  font-family: "Arial"; /* ensure Arial in nav */
 }
 .main-navigation .menu {
   list-style: none;
@@ -132,7 +132,7 @@ footer a:hover, footer a:focus { color: #0B63CE; }
 .main-navigation a {
   color: #111;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 200;
   padding: .25rem 0;
 }
 
@@ -228,5 +228,6 @@ footer a:hover, footer a:focus { color: #0B63CE; }
   color: #111 !important;
   text-decoration: none !important;
 }
+
 
 
