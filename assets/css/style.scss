@@ -91,47 +91,57 @@
   }
 }
 
-/* =========================================================
-   3) Content links (inside the main <section>)
-   - Classic Wikipedia blue system
-   - Does NOT affect nav links or theme .buttons
-   ========================================================= */
-.wrapper > section a:not(.main-navigation):not(.buttons) {
+/* 3) CONTENT LINKS — scope to text elements so nav never matches */
+.wrapper > section :where(p, li, dd, dt, blockquote, figcaption) a {
   color: #0645AD;
   text-decoration: underline;
 }
-.wrapper > section a:not(.main-navigation):not(.buttons):hover,
-.wrapper > section a:not(.main-navigation):not(.buttons):focus {
+.wrapper > section :where(p, li, dd, dt, blockquote, figcaption) a:hover,
+.wrapper > section :where(p, li, dd, dt, blockquote, figcaption) a:focus {
   color: #0B63CE;
   text-decoration: underline;
 }
-.wrapper > section a:not(.main-navigation):not(.buttons):visited { color: #0B0080; }
-.wrapper > section a:not(.main-navigation):not(.buttons):active  { color: #0A58CA; }
+.wrapper > section :where(p, li, dd, dt, blockquote, figcaption) a:visited { color: #0B0080; }
+.wrapper > section :where(p, li, dd, dt, blockquote, figcaption) a:active  { color: #0A58CA; }
 
+/* Footer links match content scheme */
 footer a { color: #0645AD; }
 footer a:hover, footer a:focus { color: #0B63CE; }
 
+/* 4) NAV — single source of truth */
+.main-navigation {
+  margin: 1rem 0 1.25rem;
+  border-top: 1px solid rgba(0,0,0,.08);
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  padding: .25rem 0;
+  font-family: "Arvo", Georgia, serif; /* ensure Arvo in nav */
+}
+.main-navigation .menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 0;
+  padding: .25rem 0;
+}
+.main-navigation .menu-item { margin: 0; padding: 0; }
 
-
-/* =========================================================
-   4) Overrides before Navigation Menu
-   ========================================================= */
-/* Ensure nav uses Arvo + neutral color, not Wikipedia blue */
-.main-navigation,
+/* Base nav link style (neutral/black) */
 .main-navigation a {
-  font-family: "Arvo", Georgia, serif !important;
-  color: #444 !important;        /* black-ish base */
-  text-decoration: none !important;
+  color: #111;
+  text-decoration: none;
+  font-weight: 600;
+  padding: .25rem 0;
 }
 
-/* Hover/active for nav */
+/* Hover/active: subtle, still neutral */
 .main-navigation a:hover,
 .main-navigation a:focus,
 .main-navigation a[aria-current="page"] {
-  color: #444 !important;         /* subtle shift, still not blue */
+  color: #444;
 }
 
-/* If the theme adds button styles to nav links, strip them */
+/* Strip any button-y styles the theme might add */
 .main-navigation a.button,
 .main-navigation .btn {
   background: none !important;
@@ -141,65 +151,13 @@ footer a:hover, footer a:focus { color: #0B63CE; }
   padding: 0 !important;
 }
 
-/* Belt-and-suspenders: if your content-link rule targets all section links,
-   neutralize it specifically for nav links inside section */
-.wrapper > section .main-navigation a {
-  color: #111 !important;
-  text-decoration: none !important;
-}
-
-
-
-/* =========================================================
-   5) Navigation Menu
-   ========================================================= */
-
-/* Bar container with subtle separators */
-.main-navigation {
-  margin: 1rem 0 1.25rem;
-  border-top: 1px solid rgba(0,0,0,.08);
-  border-bottom: 1px solid rgba(0,0,0,.08);
-  padding: .25rem 0;
-}
-
-/* Horizontal list of links; wraps on small screens */
-.main-navigation .menu {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.25rem;          /* space between items */
-  margin: 0;
-  padding: .25rem 0;
-}
-
-.main-navigation .menu-item { margin: 0; padding: 0; }
-
-/* Base link style: no underline, neutral color */
-.main-navigation a {
-  text-decoration: none; /* never underline */
-  color: #444;           /* base nav text */
-  font-weight: 600;
-  padding: .25rem 0;
-}
-
-/* Hover/focus: color shift ONLY (no underline bar) */
-.main-navigation a:hover,
-.main-navigation a:focus {
-  color: #444;        /* hover color */
-}
-
-/* Active/current page: distinct color, still no underline */
-.main-navigation a[aria-current="page"] {
-  color: #444;        /* same as hover for consistency */
-}
-
 /* Accessible keyboard focus ring */
 .main-navigation a:focus-visible {
   outline: 3px solid #60a5fa;
   outline-offset: 2px;
 }
 
-/* Remove any leftover underline pseudo‑element if it existed before */
+/* Remove any underline pseudo-element some themes add */
 .main-navigation a::after,
 .main-navigation a:hover::after,
 .main-navigation a:focus::after,
@@ -207,24 +165,18 @@ footer a:hover, footer a:focus { color: #0B63CE; }
   content: none;
 }
 
-/* =========================================================
-   5) Mobile toggle behavior (CSS-only fallback)
-   - Shows "Menu" button on small screens
-   - Focus on the button temporarily reveals the menu
-   (You can replace this with a tiny JS click-toggle later.)
-   ========================================================= */
+/* 5) Mobile toggle */
 .menu-toggle {
-  display: none;              /* hidden on desktop */
+  display: none;
   align-items: center;
   gap: .5rem;
   background: transparent;
   border: 1px solid rgba(0,0,0,.12);
   padding: .35rem .6rem;
   border-radius: .5rem;
-  color: #0645AD;
+  color: #111;            /* neutral to match nav */
   font-weight: 600;
 }
-
 .menu-toggle .menu-icon {
   width: 16px; height: 2px; background: currentColor; display: inline-block;
   position: relative;
@@ -240,18 +192,15 @@ footer a:hover, footer a:focus { color: #0B63CE; }
 
 @media (max-width: 720px) {
   .menu-toggle { display: inline-flex; }
-
-  /* Hide menu by default on small screens; show on focus */
   .main-navigation .menu {
     display: none;
     flex-direction: column;
     gap: .75rem;
     margin-top: .75rem;
   }
-
-  /* CSS-only reveal on keyboard focus */
-  .menu-toggle:focus    + .menu,
-  .menu-toggle:focus-visible + .menu {
+  .menu-toggle:focus,
+  .menu-toggle:focus-visible + .menu,
+  .menu-toggle:focus + .menu {
     display: flex;
   }
 }
