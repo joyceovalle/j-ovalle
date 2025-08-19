@@ -13,11 +13,12 @@ Dr. Ovalle (_pronounced oh-VAH-yeh_) is a postdoctoral fellow with [Planet Texas
 
 Her dissertation, *Environmental Nonprofits in U.S. Climate Governance: Understanding Resources, Rhetoric, and Heterogeneity*, uses network analysis, regression modeling, and large-scale text analysis to examine how environmental nonprofits’ funding patterns, messaging strategies, and organizational diversity shape decision-making, climate priorities, and resource mobilization across the United States.
 
-Dr. Ovalle’s research has appeared in *Nonprofit Policy Forum*, *PLOS ONE*, and the *Journal of the Association for Information Science and Technology*. Her teaching and professional perspective are informed by prior roles at the Urban Institute’s Center on Nonprofits and Philanthropy and the U.S. Department of Energy.
+Dr. Ovalle’s research has appeared in *Nonprofit Policy Forum*, *PLOS ONE*, and the *Journal of the Association for Information Science and Technology*. Her teaching and professional perspective are informed by prior roles at the *Urban Institute’s Center on Nonprofits and Philanthropy* and the *U.S. Department of Energy*.
 
 A proud first-generation graduate of Texas public schools, Dr. Ovalle is also a long-distance running enthusiast and art appreciator.
 
 ---
+
 
 
 
