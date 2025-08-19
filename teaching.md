@@ -29,7 +29,7 @@ Dr. Ovalle is prepared to teach introductory and advanced seminars in public pol
 
 <!-- Navigation block -->
 <nav style="margin-top: 1.5em; display: flex; flex-wrap: wrap; gap: 0.5em;">
-  <a href="{{ '/home/' | relative_url }}" class="joyce-nav">Home</a>
+  <a href="{{ '/' | relative_url }}" class="joyce-nav">Home</a>
   <a href="{{ '/research/' | relative_url }}" class="joyce-nav">Research</a>
   <a href="{{ '/cv/' | relative_url }}" class="joyce-nav">Curriculum Vitae</a>
 </nav>
