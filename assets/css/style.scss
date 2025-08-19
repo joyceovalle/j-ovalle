@@ -118,7 +118,7 @@ footer a:hover, footer a:focus { color: #0B63CE; }
 }
 
 /* Underline on hover with a subtle animated bar */
-.main-navigation a::after {
+.main-navigation a {
   content: "";
   position: absolute;
   left: 0; bottom: -6px;
@@ -182,6 +182,7 @@ footer a:hover, footer a:focus { color: #0B63CE; }
     display: flex;
   }
 }
+
 
 
 
