@@ -96,17 +96,17 @@
    - Classic Wikipedia blue system
    - Does NOT affect nav links or theme .buttons
    ========================================================= */
-.wrapper > section a:not(.joyce-nav):not(.buttons) {
+.wrapper > section a:not(.main-navigation):not(.buttons) {
   color: #0645AD;
   text-decoration: underline;
 }
-.wrapper > section a:not(.joyce-nav):not(.buttons):hover,
-.wrapper > section a:not(.joyce-nav):not(.buttons):focus {
+.wrapper > section a:not(.main-navigation):not(.buttons):hover,
+.wrapper > section a:not(.main-navigation):not(.buttons):focus {
   color: #0B63CE;
   text-decoration: underline;
 }
-.wrapper > section a:not(.joyce-nav):not(.buttons):visited { color: #0B0080; }
-.wrapper > section a:not(.joyce-nav):not(.buttons):active  { color: #0A58CA; }
+.wrapper > section a:not(.main-navigation):not(.buttons):visited { color: #0B0080; }
+.wrapper > section a:not(.main-navigation):not(.buttons):active  { color: #0A58CA; }
 
 footer a { color: #0645AD; }
 footer a:hover, footer a:focus { color: #0B63CE; }
@@ -216,6 +216,7 @@ footer a:hover, footer a:focus { color: #0B63CE; }
     display: flex;
   }
 }
+
 
 
 
