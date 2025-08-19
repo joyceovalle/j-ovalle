@@ -6,7 +6,7 @@ permalink: /cv/
 
 # Curriculum Vitae
 
-Download my CV: [PDF](/assets/Joyce_Ovalle_CV.pdf)
+Download my CV: [PDF](/assets/Ovalle_CV_2025.pdf)
 
 ---
 <!-- Navigation block -->
