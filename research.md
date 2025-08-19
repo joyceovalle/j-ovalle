@@ -38,7 +38,7 @@ This study examines organizational, financial, and contextual factors associated
 ---
 <!-- Navigation block -->
 <nav style="margin-top: 1.5em; display: flex; flex-wrap: wrap; gap: 0.5em;">
-  <a href="{{ '/home/' | relative_url }}" class="joyce-nav">Home</a>
+  <a href="{{ '/' | relative_url }}" class="joyce-nav">Home</a>
   <a href="{{ '/teaching/' | relative_url }}" class="joyce-nav">Teaching</a>
   <a href="{{ '/cv/' | relative_url }}" class="joyce-nav">Curriculum Vitae</a>
 </nav>
