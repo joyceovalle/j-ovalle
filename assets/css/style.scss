@@ -111,8 +111,47 @@
 footer a { color: #0645AD; }
 footer a:hover, footer a:focus { color: #0B63CE; }
 
+
+
 /* =========================================================
-   4) Navigation Menu
+   4) Overrides before Navigation Menu
+   ========================================================= */
+/* Ensure nav uses Arvo + neutral color, not Wikipedia blue */
+.main-navigation,
+.main-navigation a {
+  font-family: "Arvo", Georgia, serif !important;
+  color: #444 !important;        /* black-ish base */
+  text-decoration: none !important;
+}
+
+/* Hover/active for nav */
+.main-navigation a:hover,
+.main-navigation a:focus,
+.main-navigation a[aria-current="page"] {
+  color: #444 !important;         /* subtle shift, still not blue */
+}
+
+/* If the theme adds button styles to nav links, strip them */
+.main-navigation a.button,
+.main-navigation .btn {
+  background: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+}
+
+/* Belt-and-suspenders: if your content-link rule targets all section links,
+   neutralize it specifically for nav links inside section */
+.wrapper > section .main-navigation a {
+  color: #111 !important;
+  text-decoration: none !important;
+}
+
+
+
+/* =========================================================
+   5) Navigation Menu
    ========================================================= */
 
 /* Bar container with subtle separators */
@@ -216,6 +255,7 @@ footer a:hover, footer a:focus { color: #0B63CE; }
     display: flex;
   }
 }
+
 
 
 
