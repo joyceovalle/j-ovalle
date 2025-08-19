@@ -97,17 +97,17 @@
    - Does NOT affect nav links or theme .buttons
    ========================================================= */
 .wrapper > section a:not(.main-navigation):not(.buttons) {
-  color: #0645AD;
-  text-decoration: underline;
+  color: #0645AD;              /* default link blue */
+  text-decoration: underline;  /* underline by default */
 }
+
 .wrapper > section a:not(.main-navigation):not(.buttons):hover,
 .wrapper > section a:not(.main-navigation):not(.buttons):focus {
-  color: #0B63CE;
+  color: #0B63CE;              /* brighter blue on hover/focus */
   text-decoration: underline;
 }
-.wrapper > section a:not(.main-navigation):not(.buttons):visited { color: #0B0080; }
-.wrapper > section a:not(.main-navigation):not(.buttons):active  { color: #0A58CA; }
 
+/* Footer links match the same scheme */
 footer a { color: #0645AD; }
 footer a:hover, footer a:focus { color: #0B63CE; }
 
@@ -146,12 +146,12 @@ footer a:hover, footer a:focus { color: #0B63CE; }
 /* Hover/focus: color shift ONLY (no underline bar) */
 .main-navigation a:hover,
 .main-navigation a:focus {
-  color: #444;        /* hover color */
+  color: #0645AD;        /* hover color */
 }
 
 /* Active/current page: distinct color, still no underline */
 .main-navigation a[aria-current="page"] {
-  color: #444;        /* same as hover for consistency */
+  color: #0645AD;        /* same as hover for consistency */
 }
 
 /* Accessible keyboard focus ring */
@@ -164,58 +164,12 @@ footer a:hover, footer a:focus { color: #0B63CE; }
 .main-navigation a::after,
 .main-navigation a:hover::after,
 .main-navigation a:focus::after,
-.main-navigation a[aria-current="page"]::after {
+.main-navigation a[arvo-current="page"]::after {
   content: none;
 }
 
-/* =========================================================
-   5) Mobile toggle behavior (CSS-only fallback)
-   - Shows "Menu" button on small screens
-   - Focus on the button temporarily reveals the menu
-   (You can replace this with a tiny JS click-toggle later.)
-   ========================================================= */
-.menu-toggle {
-  display: none;              /* hidden on desktop */
-  align-items: center;
-  gap: .5rem;
-  background: transparent;
-  border: 1px solid rgba(0,0,0,.12);
-  padding: .35rem .6rem;
-  border-radius: .5rem;
-  color: #0645AD;
-  font-weight: 600;
-}
 
-.menu-toggle .menu-icon {
-  width: 16px; height: 2px; background: currentColor; display: inline-block;
-  position: relative;
-}
-.menu-toggle .menu-icon::before,
-.menu-toggle .menu-icon::after {
-  content: "";
-  position: absolute; left: 0; right: 0;
-  height: 2px; background: currentColor;
-}
-.menu-toggle .menu-icon::before { top: -5px; }
-.menu-toggle .menu-icon::after  { top:  5px; }
 
-@media (max-width: 720px) {
-  .menu-toggle { display: inline-flex; }
-
-  /* Hide menu by default on small screens; show on focus */
-  .main-navigation .menu {
-    display: none;
-    flex-direction: column;
-    gap: .75rem;
-    margin-top: .75rem;
-  }
-
-  /* CSS-only reveal on keyboard focus */
-  .menu-toggle:focus    + .menu,
-  .menu-toggle:focus-visible + .menu {
-    display: flex;
-  }
-}
 
 
 
