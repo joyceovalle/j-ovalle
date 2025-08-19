@@ -4,6 +4,9 @@ title: Research
 permalink: /research/
 ---
 
+{% include nav.html %}
+
+
 # Research Interests
 Dr. Ovalle’s research agenda advances understanding of _heterogeneity_ in the nonprofit sector, examining how these civic organizations serve as hubs of democratic expression, fill gaps in public and private provision, and navigate the tensions that emerge from balancing these varying roles. Her perspective is informed by lived experience, professional service, and scholarly inquiry, which together allow her to highlight the sector’s value while also analyzing areas for growth and improvement.
 
