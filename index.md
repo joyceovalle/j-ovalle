@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-permalink: /home/
+
 ---
 
 <img class="profile-float" src="{{ '/assets/images/gitprofile.jpg' | relative_url }}" alt="profile picture" width="240" height="240">
@@ -41,6 +41,7 @@ A proud first-generation graduate of Texas public schools, Dr. Ovalle is also a 
   color: #0645AD !important; /* keep same color on hover */
 }
 </style>
+
 
 
 
