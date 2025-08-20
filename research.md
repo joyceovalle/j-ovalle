@@ -6,7 +6,7 @@ permalink: /research/
 
 {% include nav.html %}
 
-Dr. Ovalle’s research advances understanding of heterogeneity in the nonprofit sector, examining how civic organizations serve as hubs of democratic expression, meet public and private needs, and manage the tensions inherent in balancing multiple responsibilities. Informed by professional service and scholarly inquiry, her work highlights the sector’s contributions while assessing its challenges and opportunities for improvement.
+Dr. Ovalle’s research advances understanding of _heterogeneity_ in the nonprofit sector, examining how civic organizations serve as hubs of democratic expression, meet public and private needs, and manage the tensions inherent in balancing multiple responsibilities. Informed by professional service and scholarly inquiry, her work highlights the sector’s contributions while assessing its challenges and opportunities for improvement.
 
 Her work engages four interconnected areas of inquiry:  
 - **Civil Society in Public Policy and Democracy**  
