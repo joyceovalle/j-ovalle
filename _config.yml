@@ -15,7 +15,8 @@ plugins:
 
 # Your site is a project page at /joyceovalle — keep these so asset links resolve
 url: "https://joyceovalle.github.io"
-baseurl: "/joyceovalle"
+baseurl: "/j-ovalle"
+
 
 
 
