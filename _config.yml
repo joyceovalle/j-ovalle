@@ -1,6 +1,6 @@
 title: "Joycelyn Ovalle"
 description: "PhD | MPP"
-affiliation: "Post Doctoral Scholar"
+affiliation: "The University of Texas at Austin"
 
 show_downloads: false
 google_analytics: ""
@@ -16,6 +16,7 @@ plugins:
 # Your site is a project page at /joyceovalle — keep these so asset links resolve
 url: "https://joyceovalle.github.io"
 baseurl: "/joyceovalle"
+
 
 
 
