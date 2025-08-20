@@ -14,9 +14,10 @@ Her dissertation, *Environmental Nonprofits in U.S. Climate Governance: Understa
 
 Dr. Ovalle’s research has appeared in *Nonprofit Policy Forum*, *PLOS ONE*, and the *Journal of the Association for Information Science and Technology*. Her teaching and professional perspective are informed by prior roles at the *Urban Institute’s Center on Nonprofits and Philanthropy* and the *U.S. Department of Energy*.
 
-A proud first-generation graduate of Texas public schools, Dr. Ovalle is also a long-distance running enthusiast and art appreciator.
+A proud first-generation graduate of Texas public schools, Dr. Ovalle is also a long-distance runner and art appreciator.
 
 ---
+
 
 
 
